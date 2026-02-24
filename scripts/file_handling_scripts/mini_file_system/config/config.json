@@ -1,0 +1,6 @@
+{
+     "target_folder":"data",
+     "large_file_threshold_mb":10,
+     "log_level":"DEBUG"
+
+ }
