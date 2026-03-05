@@ -1,0 +1,68 @@
+2026-03-03 22:52:31,276 - ERROR - CSV file not found: data\stackoverflow_survey_2024_synthetic_20k.csv
+2026-03-03 22:55:06,533 - INFO - Loaded CSV 'data\stackoverflow_survey_2024_synthetic_20k.csv' with shape (89184, 84)
+2026-03-03 22:55:08,594 - INFO - Report generated at reports\csv_profile_report.md
+2026-03-03 22:57:05,546 - ERROR - Failed to load CSV 'data': [Errno 13] Permission denied: 'data'
+Traceback (most recent call last):
+  File "D:\ai_learn\scripts\csv_profiler\src\profiler.py", line 26, in load
+    self.df = pd.read_csv(self.csv_path, **read_csv_kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data'
+2026-03-03 22:57:05,557 - ERROR - Profiling failed for data: [Errno 13] Permission denied: 'data'
+Traceback (most recent call last):
+  File "D:\ai_learn\scripts\csv_profiler\src\main.py", line 58, in main
+    profiler = CsvProfiler(str(csv_path)).load(low_memory=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\src\profiler.py", line 26, in load
+    self.df = pd.read_csv(self.csv_path, **read_csv_kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "D:\ai_learn\scripts\csv_profiler\.venv\Lib\site-packages\pandas\io\common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data'
+2026-03-03 22:57:38,587 - INFO - Loaded CSV 'data\stackoverflow_developer_data.csv' with shape (89184, 84)
+2026-03-03 22:57:40,537 - INFO - Report generated at reports\csv_profile_report.md
+2026-03-04 19:18:00,223 - ERROR - CSV file not found: data\stackoverflow_survey_2024_synthetic_20k.csv
+2026-03-04 19:18:57,675 - INFO - Loaded CSV 'data\stackoverflow_developer_data.csv' with shape (89184, 84)
+2026-03-04 19:19:08,252 - INFO - CsvProfiler.profile processed 84/84 columns
+2026-03-04 19:19:08,264 - INFO - Report generated at reports\csv_profile_report.md
+2026-03-04 20:45:37,084 - INFO - Starting CSV profiling for: data\stackoverflow_developer_data.csv
+2026-03-04 20:45:47,723 - INFO - Loaded CSV 'data\stackoverflow_developer_data.csv' with shape (89184, 84)
+2026-03-04 20:46:01,100 - INFO - CsvProfiler.profile processed 84/84 columns
+2026-03-04 20:46:01,103 - INFO - Profiling completed successfully
+2026-03-04 20:46:01,110 - INFO - Markdown report generated at: reports\csv_profile_report.md
+2026-03-05 09:33:19,697 - ERROR - CSV file not found: stackoverflow_developer_data.csv
+2026-03-05 09:34:02,922 - INFO - Loaded CSV 'data\stackoverflow_developer_data.csv' with shape (89184, 84)
+2026-03-05 09:34:02,923 - INFO - Successfully loaded CSV with shape: (89184, 84)
+2026-03-05 09:34:08,468 - INFO - Performing correlation analysis...
+2026-03-05 09:34:08,480 - INFO - Detecting potential feature leakage...
+2026-03-05 09:34:08,820 - INFO - Suggesting potential target variables...
+2026-03-05 09:34:09,277 - INFO - Calculating dataset quality score...
+2026-03-05 09:34:09,479 - INFO - CsvProfiler completed comprehensive analysis
+2026-03-05 09:34:09,483 - INFO - Markdown report: reports\csv_profile_report.md

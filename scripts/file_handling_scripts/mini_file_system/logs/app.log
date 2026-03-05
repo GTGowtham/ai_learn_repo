@@ -1,0 +1,60 @@
+2026-02-24 20:06:01,888 — DEBUG — Project root : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:06:01,891 — DEBUG — CWD          : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:06:02,046 — DEBUG — Target folder: D:\file_handling_scripts\mini_file_system\data
+2026-02-24 20:06:02,060 — WARNING — Large file (>10 MB): D:\file_handling_scripts\mini_file_system\data\humanity_and_you.txt (11516093 bytes)
+2026-02-24 20:06:02,070 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\data\\humanity_and_you.txt', 'size': 11516093, 'extension': '.txt', 'modified': '2026-02-21 11:03:18'}
+2026-02-24 20:06:02,071 — INFO — Discovered : 1
+2026-02-24 20:06:02,073 — INFO — Processed  : 1
+2026-02-24 20:06:02,074 — INFO — Failed     : 0
+2026-02-24 20:06:02,157 — INFO —   .txt → 1 file(s)
+2026-02-24 20:06:02,176 — INFO — Large files: 1
+2026-02-24 20:06:02,213 — INFO — Report saved : D:\file_handling_scripts\mini_file_system\reports\scan_report.md
+2026-02-24 20:45:31,489 — DEBUG — Project root : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:45:31,489 — DEBUG — CWD          : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:45:31,512 — DEBUG — Target folder: D:\file_handling_scripts\mini_file_system\src
+2026-02-24 20:45:31,513 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\main.py', 'size': 3812, 'extension': '.py', 'modified': '2026-02-24 20:05:58'}
+2026-02-24 20:45:31,513 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\config_loader.py', 'size': 2990, 'extension': '.py', 'modified': '2026-02-24 19:42:50'}
+2026-02-24 20:45:31,514 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\file_scanner.py', 'size': 5564, 'extension': '.py', 'modified': '2026-02-24 19:41:46'}
+2026-02-24 20:45:31,514 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\path_manager.py', 'size': 1714, 'extension': '.py', 'modified': '2026-02-24 19:41:43'}
+2026-02-24 20:45:31,514 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\report_writer.py', 'size': 3070, 'extension': '.py', 'modified': '2026-02-24 19:42:47'}
+2026-02-24 20:45:31,515 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\config_loader.cpython-311.pyc', 'size': 3879, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:31,515 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\file_scanner.cpython-311.pyc', 'size': 7342, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:31,515 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\path_manager.cpython-311.pyc', 'size': 2685, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:31,516 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\report_writer.cpython-311.pyc', 'size': 4591, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:31,516 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\__pycache__\\main.cpython-311.pyc', 'size': 4614, 'extension': '.pyc', 'modified': '2026-02-24 20:06:01'}
+2026-02-24 20:45:31,516 — INFO — Discovered : 10
+2026-02-24 20:45:31,518 — INFO — Processed  : 10
+2026-02-24 20:45:31,518 — INFO — Failed     : 0
+2026-02-24 20:45:31,518 — INFO —   .py → 5 file(s)
+2026-02-24 20:45:31,518 — INFO —   .pyc → 5 file(s)
+2026-02-24 20:45:31,518 — INFO — Large files: 0
+2026-02-24 20:45:31,519 — INFO — Report saved : D:\file_handling_scripts\mini_file_system\reports\scan_report.md
+2026-02-24 20:45:54,075 — DEBUG — Project root : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:45:54,077 — DEBUG — CWD          : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:45:54,122 — DEBUG — Target folder: D:\file_handling_scripts\mini_file_system\src\utils
+2026-02-24 20:45:54,123 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\config_loader.py', 'size': 2990, 'extension': '.py', 'modified': '2026-02-24 19:42:50'}
+2026-02-24 20:45:54,125 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\file_scanner.py', 'size': 5564, 'extension': '.py', 'modified': '2026-02-24 19:41:46'}
+2026-02-24 20:45:54,125 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\path_manager.py', 'size': 1714, 'extension': '.py', 'modified': '2026-02-24 19:41:43'}
+2026-02-24 20:45:54,127 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\report_writer.py', 'size': 3070, 'extension': '.py', 'modified': '2026-02-24 19:42:47'}
+2026-02-24 20:45:54,129 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\config_loader.cpython-311.pyc', 'size': 3879, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:54,132 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\file_scanner.cpython-311.pyc', 'size': 7342, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:54,136 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\path_manager.cpython-311.pyc', 'size': 2685, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:54,136 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\src\\utils\\__pycache__\\report_writer.cpython-311.pyc', 'size': 4591, 'extension': '.pyc', 'modified': '2026-02-24 19:42:54'}
+2026-02-24 20:45:54,137 — INFO — Discovered : 8
+2026-02-24 20:45:54,137 — INFO — Processed  : 8
+2026-02-24 20:45:54,137 — INFO — Failed     : 0
+2026-02-24 20:45:54,138 — INFO —   .py → 4 file(s)
+2026-02-24 20:45:54,138 — INFO —   .pyc → 4 file(s)
+2026-02-24 20:45:54,139 — INFO — Large files: 0
+2026-02-24 20:45:54,140 — INFO — Report saved : D:\file_handling_scripts\mini_file_system\reports\scan_report.md
+2026-02-24 20:46:07,413 — DEBUG — Project root : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:46:07,414 — DEBUG — CWD          : D:\file_handling_scripts\mini_file_system
+2026-02-24 20:46:07,442 — DEBUG — Target folder: D:\file_handling_scripts\mini_file_system\data
+2026-02-24 20:46:07,443 — WARNING — Large file (>10 MB): D:\file_handling_scripts\mini_file_system\data\humanity_and_you.txt (11516093 bytes)
+2026-02-24 20:46:07,444 — INFO — {'path': 'D:\\file_handling_scripts\\mini_file_system\\data\\humanity_and_you.txt', 'size': 11516093, 'extension': '.txt', 'modified': '2026-02-21 11:03:18'}
+2026-02-24 20:46:07,444 — INFO — Discovered : 1
+2026-02-24 20:46:07,444 — INFO — Processed  : 1
+2026-02-24 20:46:07,444 — INFO — Failed     : 0
+2026-02-24 20:46:07,445 — INFO —   .txt → 1 file(s)
+2026-02-24 20:46:07,445 — INFO — Large files: 1
+2026-02-24 20:46:07,447 — INFO — Report saved : D:\file_handling_scripts\mini_file_system\reports\scan_report.md
